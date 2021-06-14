@@ -1,0 +1,471 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Header Section */
+
+#header{
+    padding: 20px;
+    background-color: #fff;
+}
+
+#header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .left-nav img{
+    height: 50px;
+}
+
+#header .right-nav .nav-links .links{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+#header .right-nav .nav-links .links li{
+    color: #222222;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px;
+    margin: 0 24px 0 0;
+}
+
+/* Banner Section */
+#banner{
+    background-image: url('../images/contact_bg.png');
+    padding: 40px 0;
+}
+
+#banner .banner-content .breadcrumb{
+    background-color: transparent;
+    justify-content: center;
+    margin: 0;
+}
+
+#banner .banner-content .breadcrumb .breadcrumb-item a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#banner .banner-title{
+    margin-bottom: 30px;
+}
+
+#banner .banner-title h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Contact Section */
+#contact{
+    background-color: #f8f9fa !important;
+    padding: 60px 0;
+}
+
+#contact .contact-bucket{}
+
+#contact .contact-bucket .contact-item{}
+
+#contact .contact-bucket .contact-item .contact-title{
+    margin-bottom: 16px;
+}
+
+#contact .contact-bucket .contact-item .contact-title h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#contact .contact-bucket .contact-item .contact-sur-name{}
+
+#contact .contact-bucket .contact-item .contact-sur-name .contact-name{
+    margin-bottom: 24px;
+}
+
+#contact .contact-bucket .contact-item .contact-sur-name .contact-name label{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-item .contact-sur-name .contact-name input{
+    padding: 6px 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    width: 90%;
+}
+
+#contact .contact-bucket .contact-item .contact-sur-name .contact-surname{
+    margin-bottom: 24px;
+}
+
+#contact .contact-bucket .contact-item .contact-sur-name .contact-surname label{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-item .contact-sur-name .contact-surname input{
+    padding: 6px 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    width: 90%;
+}
+
+#contact .contact-bucket .contact-item .contact-mail-number{}
+
+#contact .contact-bucket .contact-item .contact-mail-number .contact-mail{
+    margin-bottom: 24px;
+}
+
+#contact .contact-bucket .contact-item .contact-mail-number .contact-mail label{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-item .contact-mail-number .contact-mail input{
+    padding: 6px 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    width: 90%;
+}
+
+#contact .contact-bucket .contact-item .contact-mail-number{}
+
+#contact .contact-bucket .contact-item .contact-mail-number .contact-number{
+    margin-bottom: 24px;
+}
+
+#contact .contact-bucket .contact-item .contact-mail-number .contact-number label{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-item .contact-mail-number .contact-number input{
+    padding: 6px 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    width: 90%;
+}
+
+#contact .contact-bucket .contact-item .contact-subject {
+    margin-bottom: 24px;
+}
+
+#contact .contact-bucket .contact-item .contact-subject .contact-subject-label label{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-item .contact-subject .contact-subject-input input{
+    padding: 6px 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    width: 95%;
+}
+
+#contact .contact-bucket .contact-item .contact-message {
+    margin-bottom: 24px;
+}
+
+#contact .contact-bucket .contact-item .contact-message .contact-message-label label{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-item .contact-message .contact-message-input textarea{
+    padding: 6px 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    width: 95%;
+}
+
+#contact .contact-bucket .contact-item .contact-robot{
+    margin-bottom: 30px;
+}
+
+#contact .contact-bucket .contact-item .contact-robot .contact-robot-input{}
+
+#contact .contact-bucket .contact-item .contact-robot .contact-robot-input input{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+
+#contact .contact-bucket .contact-item .contact-robot .contact-robot-input span{
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-item .contact-robot .contact-robot-captcha{
+    margin-left: 30px;
+}
+
+#contact .contact-bucket .contact-item .contact-robot .contact-robot-captcha img{
+    height: 30px;
+} 
+
+#contact .contact-bucket .contact-item .contact-robot .contact-robot-captcha h6{
+    color: #555;
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#contact .contact-bucket .contact-item .contact-robot .contact-robot-captcha p{
+    margin: 0;
+    font-size: 9px;
+}
+
+#contact .contact-bucket .contact-item .contact-btn{}
+
+#contact .contact-bucket .contact-item .contact-btn button{
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#contact .contact-bucket .contact-left-item .contact-left-firstcontent .contact-left-heading{}
+
+#contact .contact-bucket .contact-left-item .contact-left-firstcontent .contact-left-heading h5{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-left-item .contact-left-firstcontent .contact-left-content{
+    margin-bottom: 20px;
+}
+
+
+#contact .contact-bucket .contact-left-item .contact-left-firstcontent .contact-left-content p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#contact .contact-bucket .contact-left-item .contact-left-secondcontent .contact-left-heading{}
+
+#contact .contact-bucket .contact-left-item .contact-left-secondcontent .contact-left-heading h5{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-left-item .contact-left-secondcontent .contact-left-content{
+    margin-bottom: 20px;
+}
+
+
+#contact .contact-bucket .contact-left-item .contact-left-secondcontent .contact-left-content p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#contact .contact-bucket .contact-left-item .contact-left-secondcontent .contact-left-content p span{
+    color: #e44a21;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-left-item .contact-left-thirdcontent .contact-left-heading{
+}
+
+#contact .contact-bucket .contact-left-item .contact-left-thirdcontent .contact-left-heading h5{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#contact .contact-bucket .contact-left-item .contact-left-thirdcontent .contact-left-content{
+    margin-bottom: 20px;
+}
+
+
+#contact .contact-bucket .contact-left-item .contact-left-thirdcontent .contact-left-content p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#contact .contact-bucket .contact-left-item .contact-left-thirdcontent .contact-left-content p span{
+    color: #e44a21;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/* Footer Section */
+#footer{
+    padding: 50px 0;
+    background-color: #f2f2f7;
+}
+
+#footer .footer-bucket{}
+
+#footer .footer-bucket .footer-about{}
+
+#footer .footer-bucket .footer-about .footer-title{}
+
+#footer .footer-bucket .footer-about .footer-about-title h6{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#footer .footer-bucket .footer-about .footer-about-content{}
+
+#footer .footer-bucket .footer-about .footer-about-content p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#footer .footer-bucket .footer-about .footer-about-content p span{
+    color: #e44a21;
+}
+
+#footer .footer-bucket .footer-about .footer-about-bus-cus .footer-about-business{}
+
+#footer .footer-bucket .footer-about .footer-about-bus-cus .footer-about-business button{
+    padding: 8px 25px;
+    margin-left: 10px;
+    color: black;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgb(16 25 40 / 10%) 0px 4px 6px 0px;
+}
+
+#footer .footer-bucket .footer-about .footer-about-bus-cus .footer-about-customer{}
+
+#footer .footer-bucket .footer-about .footer-about-bus-cus .footer-about-customer button{
+    padding: 8px 25px;
+    margin-left: 10px;
+    color: #fff;
+    background-color: #e44a21;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+#footer .footer-bucket .footer-company .footer-company-title{}
+
+#footer .footer-bucket .footer-company .footer-company-title h6{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#footer .footer-bucket .footer-company .footer-company-list{}
+
+#footer .footer-bucket .footer-company .footer-company-list ul li{
+    font-size: 13px;
+    margin-bottom: 10px;
+} 
+
+#footer .footer-bucket .footer-legalstuff{}
+
+#footer .footer-bucket .footer-legalstuff .footer-legalstuff-title{}
+
+#footer .footer-bucket .footer-legalstuff .footer-legalstuff-title h6{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#footer .footer-bucket .footer-legalstuff .footer-legalstuff-list{}
+
+#footer .footer-bucket .footer-legalstuff .footer-legalstuff-list ul li{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+#footer .footer-bucket .footer-getintouch{}
+
+#footer .footer-bucket .footer-getintouch .footer-getintouch-title{}
+
+#footer .footer-bucket .footer-getintouch .footer-getintouch-title h6{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#footer .footer-bucket .getintouch-twit-fac-icon{
+    margin-bottom: 10px;
+}
+
+#footer .footer-bucket .getintouch-twit-fac-icon .getintouch-twitter-icon{}
+
+#footer .footer-bucket .getintouch-twit-fac-icon .getintouch-twitter-icon i{
+    color: #868e96 !important;
+    padding: 16px;
+    font-size: 30px;
+}
+
+#footer .footer-bucket .getintouch-twit-fac-icon .getintouch-facebook-icon{}
+
+#footer .footer-bucket .getintouch-twit-fac-icon .getintouch-facebook-icon i{
+    color: #868e96 !important;
+    padding: 16px;
+    font-size: 30px;
+}
+
+
+#footer .footer-bucket .getintouch-ins-twit-icon{}
+
+#footer .footer-bucket .getintouch-ins-twit-icon .getintouch-instagram-icon{}
+
+#footer .footer-bucket .getintouch-ins-twit-icon .getintouch-instagram-icon i{
+    color: #868e96 !important;
+    padding: 16px;
+    font-size: 30px;
+}
+
+#footer .footer-bucket .getintouch-ins-twit-icon .getintouch-twitter-icon{}
+
+#footer .footer-bucket .getintouch-ins-twit-icon .getintouch-twitter-icon i{
+    color: #868e96 !important;
+    padding: 16px;
+    font-size: 30px;
+}
+
+/* Legals Section */
+#legals{
+    padding: 10px 0;
+    background-color: #E8E8EE;
+}
+
+#legals .legals-bucket{}
+
+#legals .legals-bucket .legals-bucket-left-item{}
+
+#legals .legals-bucket .legals-bucket-left-item p{
+    color: rgb(135, 140, 147) !important;
+    font-size: 13px;
+    margin: 0;
+}
+
+#legals .legals-bucket .legals-bucket-left-item p a{
+    font-weight: bold;
+    color: rgb(135, 140, 147) !important;
+}
+
+#legals .legals-bucket .legals-bucket-right-item p{
+    color: rgb(135, 140, 147) !important;
+    font-size: 13px;
+    margin: 0;
+}
+
+#legals .legals-bucket .legals-bucket-right-item p a{
+    font-weight: bold;
+    color: rgb(135, 140, 147) !important;
+}
+
